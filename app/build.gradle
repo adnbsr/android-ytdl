@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+  compileSdkVersion 22
+  buildToolsVersion "23.0.0 rc2"
+
+  defaultConfig {
+    applicationId "com.andromedalabs.ytdl"
+    minSdkVersion 9
+    targetSdkVersion 22
+    versionCode 1
+    versionName "1.0"
+  }
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+  }
+}
+
+dependencies {
+  compile fileTree(dir: 'libs', include: ['*.jar'])
+  compile rootProject.ext.design
+  compile rootProject.ext.appcompat
+  compile rootProject.ext.supportv4
+  compile rootProject.ext.cardview
+  compile rootProject.ext.recyclerview
+  compile rootProject.ext.eventbus
+  compile rootProject.ext.ion
+  compile rootProject.ext.bottomsheet
+  compile rootProject.ext.yandex
+  compile rootProject.ext.storebox
+  compile rootProject.ext.gpsbase
+  compile rootProject.ext.gpsads
+  compile rootProject.ext.rhino
+  compile rootProject.ext.jsoup
+  compile rootProject.ext.okhttp
+  compile rootProject.ext.okhttpconnection
+  compile rootProject.ext.rx
+  compile rootProject.ext.retrofit
+  compile rootProject.ext.picasso
+  compile rootProject.ext.butterknife
+
+  compile rootProject.ext.timber
+}

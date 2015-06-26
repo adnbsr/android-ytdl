@@ -1,0 +1,14 @@
+<resources>
+  <string name="app_name">YouTube DL</string>
+
+  <string name="hello_world">Hello world!</string>
+  <string name="action_settings">Settings</string>
+
+  <!-- Titles -->
+  <string name="browser">Browser</string>
+  <string name="downloads">Downloads</string>
+  <string name="rate">Rate</string>
+
+  <string name="ad_id">ca-app-pub-6129205594866325/1922288099</string>
+
+</resources>
